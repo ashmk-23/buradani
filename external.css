@@ -1,0 +1,39 @@
+/* Add a black background color to the top navigation */
+body {
+    background-color: #F7F9FC;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*nav {
+    /* Nav bar styles */
+  /*}  */
+  .section {
+    background-color: #FFFFFF;
+    padding: 20px;
+  }
+  
+  .adventure {
+    background-color: #82363A;
+    color: #FFFFFF;
+    padding: 20px;
+  }
+ 
+  .service {
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .button {
+    background-color: #82363A;
+    color: #FFFFFF;
+    /* Additional button styles */
+  }
