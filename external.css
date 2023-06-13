@@ -4,36 +4,55 @@ body {
     margin: 0;
     padding: 0;
   }
-  
-  /*nav {
-    /* Nav bar styles */
-  /*}  */
-  .section {
-    background-color: #FFFFFF;
-    padding: 20px;
+
+  * {
+    box-sizing: border-box;
   }
   
-  .adventure {
-    background-color: #82363A;
-    color: #FFFFFF;
-    padding: 20px;
-  }
- 
-  .service {
-    margin-bottom: 20px;
-  }
-  
-  
-  
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .column {
+
+    float: left;
     width: 50%;
+    padding: 10px;
   }
   
-  .button {
-    background-color: #82363A;
-    color: #FFFFFF;
-    /* Additional button styles */
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
+  img {
+    border-radius: 10%;
+  }
+  h1{
+    text-align: center;
+    background: #b32d91;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font: 24px/34px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: center;
+
+ }
+ h2{
+    text-align: center;
+    background: #b32d91;
+    border-radius: 16px;
+    color: #fff;
+    display: block;
+    font: 10px/20px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: center;
+ }
+
+
+ .p {
+
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
